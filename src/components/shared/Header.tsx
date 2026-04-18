@@ -17,8 +17,9 @@ export function Header() {
   return (
     <header className="bg-amber-800 text-white shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link to="/" className="text-xl font-bold tracking-tight">
-          🌵 Raizes do Nordeste
+        <Link to="/" className="text-xl font-bold tracking-tight flex items-center gap-2">
+          <img src="/favicon.png" alt="" className="w-7 h-7" />
+          Raizes do Nordeste
         </Link>
 
         <div className="flex items-center gap-4">

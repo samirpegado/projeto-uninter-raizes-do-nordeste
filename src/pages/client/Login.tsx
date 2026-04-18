@@ -81,7 +81,10 @@ export function Login() {
     <div className="min-h-screen bg-amber-50 flex items-center justify-center px-4">
       <div className="bg-white rounded-xl shadow-md w-full max-w-md p-8">
         <div className="text-center mb-6">
-          <h1 className="text-2xl font-bold text-amber-800">🌵 Raizes do Nordeste</h1>
+          <h1 className="text-2xl font-bold text-amber-800 flex items-center justify-center gap-2">
+            <img src="/favicon.png" alt="" className="w-8 h-8" />
+            Raizes do Nordeste
+          </h1>
            <h2 className="text-lg font-bold text-amber-400 mt-4">O sabor da comida de mainha</h2>
           <p className="text-gray-500 text-sm mt-1">
             {modo === 'login' ? 'entre na sua conta' : 'crie sua conta'}
